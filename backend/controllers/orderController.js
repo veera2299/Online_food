@@ -9,7 +9,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 const placeOrder = async (req, res) => {
 
-    const frontend_url = "https://onlinefoodfrontend.netlify.app";
+    const frontend_url = "https://online-food-frontend.onrender.com";
 
     const { userId, items, amount, address } = req.body;
     try {
