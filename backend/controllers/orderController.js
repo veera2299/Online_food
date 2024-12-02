@@ -9,7 +9,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 const placeOrder = async (req, res) => {
 
-    const frontend_url = "http://localhost:5174";
+    const frontend_url = "http://localhost:5173";
 
     const { userId, items, amount, address } = req.body;
     try {
@@ -48,7 +48,7 @@ const placeOrder = async (req, res) => {
             cancel_url: `${frontend_url}/verify?success=false&orderId=${newOrder._id}`
         })
 
-        res.json({ success: true, session_url: session.url });
+        return res.json({ success: true, session_url: session.url });
 
     } catch (error) {
         console.log(error);

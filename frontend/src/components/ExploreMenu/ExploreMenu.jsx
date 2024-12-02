@@ -15,7 +15,7 @@ const ExploreMenu = ({category,setCategory}) => {
                 </div>
             ))} 
         </div>
-        <hr />
+        <hr /> 
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useState } from 'react';
 import './LoginPopup.css'
 import { assets } from '../../assets/frontend_assets/assets';
 import { StoreContext } from '../../context/StoreContext';
@@ -50,7 +50,8 @@ const LoginPopup = ({ setShowLogin }) => {
                     <img onClick={() => setShowLogin(false)} src={assets.cross_icon} alt="" />
                 </div>
                 <div className="login-popup-inputs">
-                    {currState === "Login" ? <></> : <input type="text" name='name' onChange={onChangeHandler} value={data.name} placeholder='Your Name' required />}
+                    {currState === "Login" ? <></> : 
+                    <input type="text" name='name' onChange={onChangeHandler} value={data.name} placeholder='Your Name' required />}
 
                     <input type="email" name='email' onChange={onChangeHandler} value={data.email} placeholder='Your email' required />
                     <input type="password" name='password' onChange={onChangeHandler} value={data.password} placeholder='Your password' required />
