@@ -47,3 +47,46 @@ Here are some of the Screenshots of online food delivery website
 
 ![App Screenshot](./1assets/landing_page.png)
 
+2.Menu Section
+
+![App Screenshot](./1assets/menu_section.png)
+![App Screenshot](./1assets/dishes_section.png)
+
+3.Signup popup
+
+![App Screenshot](./1assets/signup_popup.png)
+
+4.Login popup
+
+![App Screenshot](./1assets/login_popup.png)
+
+5.Cart Page
+
+![App Screenshot](./1assets/cart_page.png)
+
+6.Address Page
+
+![App Screenshot](./1assets/address_page.png)
+
+5.MY Orders Page
+
+![App Screenshot](./1assets/myorders_page.png)
+
+Website Link - https://online-food-frontend.onrender.com
+
+Admin section:
+
+6.Add Items Page
+
+![App Screenshot](./1assets/additems_page.png)
+
+6.Items list Page
+
+![App Screenshot](./1assets/itemslist_page.png)
+
+6.Orders Page
+
+![App Screenshot](./1assets/orders_page.png)
+
+Admin Link - https://online-food-admin.onrender.com/add
+
