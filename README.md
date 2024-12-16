@@ -3,6 +3,23 @@
 
 As the name says it all, it a simple full stack project which is used for ordering food from your favourite restaurant. It is a user friendly and responsive website.
 
+[Visit Now](https://online-food-frontend.onrender.com) 🚀
+
+## 🖥️ Tech Stack
+
+### Frontend:
+![HTML5](https://img.shields.io/badge/HTML5-FF5733?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-264DE4?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+
+### Backend:
+![MongoDB](https://img.shields.io/badge/MongoDB-4DB33D?style=flat&logo=mongodb&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-3E8E41?style=flat&logo=json-web-tokens&logoColor=white)
+
 
 ## Features
 
@@ -16,16 +33,6 @@ As the name says it all, it a simple full stack project which is used for orderi
 - Use JsonWebToken(JWT) for user login and register.
 
 
-
-
-## Build with :
- - HTML
- - CSS
- - React
- - JavaScript
- - Express Js
- - MongoDB
- - Node Js
 ## NPM Packages I Used :
 - react-router-dom
 - axios
